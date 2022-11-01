@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-react/cart": ["libs/cart/src/index.ts"],
+      "@nx-react/home": ["libs/home/src/index.ts"],
+      "@nx-react/products": ["libs/products/src/index.ts"],
+      "@nx-react/ui": ["libs/ui/src/index.ts"],
+      "@nx-react/utils/format": ["libs/utils/format/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
